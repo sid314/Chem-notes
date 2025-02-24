@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{chemfig}
+\usepackage{mhchem}
 \title{Haloalkanes and Haloarenes}
 \author{Abdullah Ahmad Siddiqui}
 \date{24-02-2025}
@@ -20,7 +21,7 @@ These include:
   \item{Allylic Halides}
   \item{Benzylic Halides}
 \end{enumerate}
-\subsection{Alkyl Halides}
+\subsection*{Alkyl Halides}
 Here, the halogen is bonded to an alkyl group (R). They are further 
 classified into primary, secondary and tertiary according to the
 nature of carbon to which the halogen is attached.
@@ -29,7 +30,54 @@ nature of carbon to which the halogen is attached.
 \chemname{\chemfig{C(-[0]X)(-[2]H)(-[4]R)(-[6]H)}}{ Primary Halide }\qquad
 \chemname{\chemfig{C(-[0]X)(-[2]R`)(-[4]R)(-[6]H)}}{ Secondary Halide} \qquad{}
 \chemname{\chemfig{C(-[0]X)(-[2]R`)(-[4]R)(-[6]R``)}}{  Tertiary Halide}
+\subsection*{Allylic Halides}
+Here, the halogen is bonded to an $sp^3$ hybridized carbon adjacent
+to which is a carbon - carbon double bond. For example:
+\vspace{5mm}
+
+\chemfig{=(-[7]CH_2X)} 
+\linebreak{}
+\vspace{5mm}
+
+\chemfig{*6(-(-X)-=---)}
+\subsection*{Benzylic Halides}
+These are compounds where the $sp^3$ carbon attached to the halogen is bonded
+to an aromatic ring.
+\vspace{5mm}
+
+\chemfig{*6(-=-(-CH_2X)=-=)}
+\subsection{Compounds containing $sp^2-x$ bond}
+These include
+\begin{enumerate}
+  \item Vinylic Halides
+    \item{Aryl Halides}
+
+\end{enumerate}
+\subsection*{Vinylic Halides}
+Here, the halogen is bonded to an $sp^2$ hybridized atom of a carbon - carbon
+double bond. (\chemfig{C=C})
+\vspace{5mm}
+
+\chemfig{=-[7]X} \qquad{} \chemfig{*6(--(-X)=---)}
+\subsection*{Aryl Halides}
+Here, the halogen is bonded to an $sp^2$ hybridized carbon which
+is part of an aromatic ring.
+\vspace{5mm}
+
+\chemfig{*6(-=(-X)-=-=)}
+
 
 \section{Preparation}
+\subsection{From Alcohols}
+\begin{enumerate}
+ \item \ce{R-OH + HCl ->[ZnCl2] R-Cl + H2O}
+ \item \ce{R-OH + NaBr + H2SO4 -> R-Br+ NaHSO4+H2O}
+ \item \ce{3R-OH + PX3 -> 3R-X +H3PO3}
+ \item \ce{3R-OH + PCl5 -> 3R-Cl +HCl +POCl3}
+ \item \ce{3R-OH ->[red P/X2][X2 = Br2,I2] R-X}
+ \item \ce{3R-OH + SOCl2 -> R-Cl +SO2 +HCl}
+\end{enumerate}
+\subsection{Free Radical Hlogenation}
+
   
 \end{document}
